@@ -3,38 +3,13 @@ In this cloud build we will be utilizing GCP. We will be getting familiarize wit
 We will be deploying two Cloud Run services. One, a Hello World container to help us learn the GUI. Two, import a public image from Docker Hub to help us learn the CLI.
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
-
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
-
-
-
-Resource links:
-https://cloud.google.com/run/docs/quickstarts/deploy-container
-https://cloud.google.com/run/docs/overview/what-is-cloud-run
-https://help.acloud.guru/hc/en-us/articles/360001389276?_ga=2.110666693.1947094082.1663603873-1476531138.1660764520
-https://cloud.google.com/sdk/gcloud/reference/config/set
-
-
-
-
 1. Lets sign into the portal. https://cloud.google.com
 
 2. Lets create a project.
-    1. project name drew-cloudbuild-sep-2022-pr
+2.1 project name drew-cloudbuild-sep-2022-pr
 2.2 select 'Create'
 2.3 select new project. 
 
@@ -68,4 +43,10 @@ gcloud run deploy http-doom --image gcr.io/your-project-name/http-doom --cpu=2 -
 4.7 now lets go back to GUI and clean up resources.
 4.8 now lets go back to GUI and clean up our project
 4.8.1 go to 'manage services' 
-4.8.2 check box the project name and click delete.
+4.8.2 check box the project name and click delete. 
+
+# Resource Link
+https://cloud.google.com/run/docs/quickstarts/deploy-container
+https://cloud.google.com/run/docs/overview/what-is-cloud-run
+https://help.acloud.guru/hc/en-us/articles/360001389276?_ga=2.110666693.1947094082.1663603873-1476531138.1660764520
+https://cloud.google.com/sdk/gcloud/reference/config/set
