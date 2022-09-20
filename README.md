@@ -34,7 +34,7 @@ https://cloud.google.com/sdk/gcloud/reference/config/set
 1. Lets sign into the portal. https://cloud.google.com
 
 2. Lets create a project.
-2.1. project name 'drew-cloudbuild-sep-2022-pr'
+    2.1. project name 'drew-cloudbuild-sep-2022-pr'
 2.2 select 'Create'
 2.3 select new project. 
 
