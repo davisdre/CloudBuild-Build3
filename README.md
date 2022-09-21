@@ -1,6 +1,6 @@
 # Introduction 
-In this cloud build we will be utilizing GCP. We will be getting familiarize with Cloud Run, the GCP console itself, and commandline via Cloud Shell.
-We will be deploying two Cloud Run services. One, a Hello World container to help us learn the GUI. Two, import a public image from Docker Hub to help us learn the CLI.
+In this cloud build we will be utilizing GCP. We will be getting familiarize with Cloud Run GUI, and cli via Cloud Shell.
+We will be deploying two Cloud Run services. First, a Hello World container to help us learn the Cloud Run GUI. Second, import a public image from Docker Hub to help us learn the gCloud CLI.
 
 # Getting Started
 The following will help you get started with this build:
