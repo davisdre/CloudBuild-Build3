@@ -17,6 +17,8 @@ Lets create a project.
 2. create a project name
 3. Click 'Create' 
 
+![Screenshot for step 2](/step2.PNG)
+
 ## Step 3
 Lets Deploy to Cloud run via GUI.
 1. lets me sure we selected our new project 
@@ -32,6 +34,10 @@ Lets Deploy to Cloud run via GUI.
 11. click Create. (NOTE, this process can take up to 5 minutes).
 12. now click on the URL and see if your container is running now. 
 13. now lets go back and clean up our resources. 
+
+![Screenshot 1 for step 3](/step3.PNG)
+
+![Screenshot 2 for step 3](/step3.12.PNG)
 
 ## Step 4
 Lets Deploy to Cloud Run via gcloud using a Public image and have some fun.
@@ -63,10 +69,14 @@ Lets Deploy to Cloud Run via gcloud using a Public image and have some fun.
 5. now click on the URL and we can have some fun!
 6. now lets go back to GUI and clean up resources.
 
+![Screenshot for step 4](/step4.PNG)
+
 ## Step 5
 Now lets go back to GUI and clean up our project
 1. go to 'manage services' 
-2. check box the project name and click delete. 
+2. check box the project name and click delete.
+
+![Screenshot for step 5](/step5.PNG)
 
 # Resource Link
 - https://cloud.google.com/run/docs/quickstarts/deploy-container
