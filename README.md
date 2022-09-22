@@ -73,7 +73,7 @@ Lets Deploy to Cloud Run via gcloud using a Public image and have some fun.
 
 ## Step 5
 Now lets go back to GUI and clean up our project
-1. go to 'manage services' 
+1. go to 'manage resources' 
 2. check box the project name and click delete.
 
 ![Screenshot for step 5](/step5.PNG)
